@@ -8,6 +8,7 @@ public class TestCrypt {
         BCryptPasswordEncoder pe = new BCryptPasswordEncoder();
         System.out.println(pe.encode("\n Generando password...\n"));
         System.out.println(pe.encode("user"));
+        System.out.println("\n Password generado...");
     }
 
 }

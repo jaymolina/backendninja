@@ -8,5 +8,6 @@ public class TestCrypt {
         BCryptPasswordEncoder pe = new BCryptPasswordEncoder();
         System.out.print(pe);
         System.out.print("\n Prueba");
+        System.out.print("\n Prueba");
     }
 }

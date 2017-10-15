@@ -6,5 +6,6 @@ public class TestCrypt {
 
     public static void main(String args[]){
         BCryptPasswordEncoder pe = new BCryptPasswordEncoder();
+        System.out.print("Nueva rama master");
     }
 }
